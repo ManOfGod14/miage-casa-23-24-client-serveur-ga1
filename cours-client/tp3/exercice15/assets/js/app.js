@@ -1,11 +1,11 @@
-const heuresId = document.querySelector("#heuresId");
-const minutesId = document.querySelector("#minutesId");
-const secondesId = document.querySelector("#secondesId");
-const millisecondesId = document.querySelector("#millisecondesId");
+const heuresIdElt = document.querySelector("#heuresId");
+const minutesIdElt = document.querySelector("#minutesId");
+const secondesIdElt = document.querySelector("#secondesId");
+const msecondesIdElt = document.querySelector("#millisecondesId");
 
-const startId = document.querySelector("#startId");
-const stopId = document.querySelector("#stopId");
-const resetId = document.querySelector("#resetId");
+const startIdElt = document.querySelector("#startId");
+const stopIdElt = document.querySelector("#stopId");
+const resetIdElt = document.querySelector("#resetId");
 
 let timerId; // stocker l'id du timer
 let heure = 0;
