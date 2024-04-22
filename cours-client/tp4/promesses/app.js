@@ -90,3 +90,21 @@ promesseErreur
   .catch((err) => {
     console.log(err);
   });
+
+// Exercice 10
+const promesseFinally = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Succès !");
+  }, 2000);
+});
+
+promesseFinally
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(err);
+  })
+  .finally(() => {
+    console.log("Fin de l'exercice 10 !");
+  });
